@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/estilo.css">
+  <title>Cronometro</title>
+</head>
+<body>
+  <header>
+    <div class="logo"><h1>DaHora<span>Dev</span></h1></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Cronômetro Crescente</a></li>
+        <!-- <li><a href="decrescente.html">Decrescente</a></li> 
+        para fazer cronômetro decrescente -->
+      </ul>
+    </nav>
+  </header>
+  <section class="conteiner">
+    <div class="temporizador">
+      <h1 id="timer">00:00:00</h1>
+    </div>
+    <div class="botoes">
+      <button onclick="inicio()">Iniciar</button>
+      <button onclick="pausa()">Pausa</button>
+      <button onclick="reinicio()">Reset</button>
+    </div>
+  </section>
+
+
+  <script src="js/cresc.js"></script>
+</body>
+</html>
